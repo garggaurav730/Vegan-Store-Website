@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR STARTS HERE */
+header {
+  background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+nav {
+  background-color: #ffffff;
+}
+
+#topbar {
+  height: 77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo img {
+  width: 40px;
+  height: 40px;
+  margin-left: 28px;
+  margin-top: 4px;
+}
+
+.nav-lists ol {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-lists li {
+  padding-right: 30px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.nav-lists button {
+  color: #ffffff;
+  background-color: rgb(170, 210, 54);
+  padding: 9px 32px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 6px;
+  margin-top: 2px;
+}
+
+/* NAVBAR ENDS HERE */
+
+/* MAIN SECTION STARTS */
+/* SECTION ONE STARTS */
+.section-one {
+  position: absolute;
+  top: 12%;
+  left: 4%;
+}
+
+.section-one h1 {
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 10px;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 130px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.section-one p {
+  text-align: center;
+  color: #8b8b99;
+  width: 84%;
+  margin: 0 auto;
+  margin-top: 42px;
+  font-size: 14px;
+}
+/* SECTION ONE ENDS */
+
+/* SECTION TWO STARTS */
+.section-two {
+  display: flex;
+  text-align: center;
+  color: #ffffff;
+}
+
+.section-two div {
+  width: 25%;
+  padding: 116px 0;
+}
+
+.section-two i {
+  font-size: 100px;
+}
+
+.section-two p {
+  width: 68%;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* SECTION TWO ENDS */
+
+/* SECTION THREE STARTS HERE */
+.section-three {
+  background-color: #f7eee2;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.cursive-heading {
+  font-family: 'Caveat', cursive;
+  color: #91ac41;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.section-three h1 {
+  font-weight: bold;
+  font-size: 44px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.para-line {
+  color: #8b8b99;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-top: 7px;
+}
+
+.vegan_store {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.vegan_store div {
+  margin-top: 55px;
+  width: 22%;
+}
+
+.vegan_store i {
+  font-size: 60px;
+  font-weight: 900;
+  border: 2px solid #e3b375;
+  background-color: #e3b375;
+  border-radius: 50%;
+  padding: 40px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+
+.vegan_store p {
+  color: #8b8b99;
+  width: 93%;
+}
+/* SECTION THREE ENDS HERE */
+
+/* SECTION FOUR STARTS HERE */
+.section-four {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.section-four h1 {
+  font-weight: bold;
+  font-size: 44px;
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.para-line_two {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.vegan_shop {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.vegan_shop div {
+  width: 32%;
+  background-color: #f5f6fb;
+  margin-top: 80px;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+}
+
+.vegan_shop div:nth-child(2) {
+  margin-top: 92px;
+  margin-bottom: 18px;
+}
+
+.vegan_shop img {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.vegan_shop p {
+  width: 80%;
+  margin: 0 auto;
+  color: #8b8b99;
+  letter-spacing: 0.5px;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.vegan_shop h4 {
+  margin-bottom: 0px;
+}
+
+.blog-word {
+  padding-bottom: 30px;
+}
+
+/* SECTION FOUR ENDS HERE */
+/* MAIN SECTION ENDS */
